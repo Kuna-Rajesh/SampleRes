@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="Resume.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/android-chrome-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_io/favicon-16x16.png">
+	<link rel="icon" type="image/x-icon" href="assets/favicon_io/favicon.ico">
+	<link rel="manifest" href="/site.webmanifest">
+	<title>Rajesh</title>
+</head>
+<body>
+<div class="hero">
+	<div class="navh">
+		<div class="navs">
+			<img src="assets/images/Head_logo.jpg" class = "logo" alt="">
+			<ul id="sidemenu">
+				<li><a href="#">HOME</a></li>
+				<li><a href="#about">ABOUT</a></li>
+			<li><a href="#accomplishments">CERTIFICATES</a></li>
+			<li><a href="#portfolio">PROJECTS</a></li>
+			<li><a href="#contact">HIRE ME</a></li>
+			<i class="fas fa-times" onclick="closemenu()"></i>
+			</ul>
+			<i class="fas fa-bars" onclick="openmenu()"></i>
+		</div>
+	</div>
+	<div class="detel">
+		<h1>I am <span style="color: orange; font-style: italic;">R</span>ajesh</h1>
+
+		<p>
+     This is my official Portfolio Website with all my works releated to
+		 <br/>
+		 Web development and Machine Learning
+		</p>
+		<a href="assets/Documents/Cv.pdf" download="Rajesh_CV">Downdload CV</a>
+	</div>
+	<div class="images">
+		<img src="assets/images/shape.png" class="shape">
+		<img src="assets/images/photo.webp" class="boy">
+  </div>
+  <div class="social">
+	 <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+	 <a href="#"><i class="fab fa-instagram"></i></a>
+	 <a href="https://www.linkedin.com/in/kuna-rajesh/"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+</div>
+<div id="about">
+	<div class="about_container">
+		<div class="about_row">
+			<div class="about_col1">
+				<h1 class="about_head">About Me</h1>
+        <p class="about_desc">
+					My interests are in Front End Engineering, and I love to create beautiful and performant products with delightful user experiences, And also I am a Machine Learning enthusiast.  
+        Currently I am Seeking a position in a competitive environment that would challenge me to push my boundaries and expand my knowledge in this field of computer science.
+				</p>
+				<ul class="about_ul">
+					<li class="about_info"><span>Birthday :</span> March 23, 2001</li>
+					<li class="about_info"><span>Location :</span> Nidadavole, Andhra Pradesh</li>
+					<li class="about_info"><span>Email :</span>rajeshkuna70@gmail.com</li>
+					<li class="about_info"><span>Phone :</span>+91 9553941055</li>
+				</ul>
+			</div>
+			<div class="about_col2">
+       <div class="about_titles">
+				<p class="about_links active_link" onclick="opentab('skills')">Skills</p>
+				<p class="about_links" onclick="opentab('experience')">Experience</p>
+				<p class="about_links" onclick="opentab('education')">Education</p>
+			 </div>
+			 <div class="about_content active-tab" id="skills">
+				<ul style="padding-left: 0%;">
+					<li><span>Technical Skills</span><br>React.js, MySQL, Machine Learning, Adobe.</li>
+					<li><span>Computer Science Skills</span><br>DS Algo, DBMS, Networking.
+					</li>
+					<li><span>Programming/scripting</span><br> C, Python, C++, Html, CSS, Js.</li>
+					<li><span>Version control</span><br>Git</li>
+				</ul>
+			 </div>
+			 <div class="about_content" id="experience">
+				<ul style="padding-left: 0%;">
+					<li><span>Jul 2022 - Aug 2022</span><br>Mentee at Amazon ML Summer School</li>
+					<li><span>May 2022 - Jul 2022</span><br>Intern at Google Cloud Ready Facilitator program
+					</li>
+					<li><span>Jan 2022 - Apr 2022</span><br>Web Development Internship at CodeQuotient</li>
+					<li><span>Feb 2022 - Mar 2022</span><br>Machine Learning Intern at InternshipStudio</li>
+					<li><span>Oct 2021 - Nov 2021</span><br>Campus Ambassador at National Engineering Olympiad</li>
+				</ul>
+			 </div>
+			 <div class="about_content" id="education">
+				<ul style="padding-left: 0%;">
+					<li><span>2019 - 2023</span><br>B.Tech from SRKR Engineering College</li>
+					<li><span>2017 - 2019</span><br>12th, Narayana Junior College</li>
+					<li><span>2017</span><br> 10, Narayana Techno School</li>
+				</ul>
+			 </div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="portfolio">
+	<div style="padding:50px 10%;">
+		<h1 class="portfolio_head">Projects</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="assets/images/DisProj1.webp" alt="">
+				<div class="layer">
+					<h3>Discussion App</h3>
+					<p>A simple Discussion App which helps the users to post questions and answers
+						and discuss on a selected queries</p>
+						<a href="#"><i class="fas fa-external-link-alt"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="assets/images/cergproj2.jfif" alt="">
+				<div class="layer">
+					<h3>Online Certificate Generation</h3>
+					<p>A website which takes the input from the user and generate the certificate</p>
+						<a href="#"><i class="fas fa-external-link-alt"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="assets/images/youtubeProj3.jfif" alt="">
+				<div class="layer">
+					<h3>Youtube adview Prediction</h3>
+					<p>it is a application which predicts the youtube adview on given data. </p>
+						<a href="#"><i class="fas fa-external-link-alt"></i></a>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="btn">See more</a>
+	</div>
+</div>
+<!-- <div id="accomplishments">
+	<div style="padding: 50px 10%;">
+		<h1>Certificates</h1>
+
+	</div>
+	</div> -->
+</div>
+<div id="contact">
+	<div class="about_container">
+		<div class="row">
+			<div class="contact-left">
+				<h1>Contact Me</h1>
+				<p><i class = "fas fa-paper-plane"></i>rajeshkuna70@gmail.com</p>
+				<p><i class = "fas fa-phone-square-alt"></i>+919553941055</p>
+				<div class="social-icons">
+					<a href="mailto:rajeshkuna70@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+					<a href="https://github.com/Kuna-Rajesh"><i class="fab fa-github"></i></i></a>
+					<a href=""><i class = "fab fa-instagram"></i></a>
+					<a href="https://www.linkedin.com/in/kuna-rajesh/"><i class = "fab fa-linkedin-in"></i></a>
+			</div>
+			<a href="assets/Documents/Cv.pdf" download class = "btn btn2">Download CV</a>
+			</div>
+			<div class="contact-right">
+          <form name="submit-to-google-sheet">
+						<input type="text" name="Name" placeholder="Your Name" required>
+						<input type="email" name="Email" placeholder="Youe Email" required>
+						<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+						<button type="submit" class="btn btn2">Submit</button>
+					</form>
+					<span id="msg"></span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<script>
+ var tablinks = document.getElementsByClassName("about_links");
+ var tabcontents = document.getElementsByClassName("about_content");
+ function opentab(tabname){
+	for(tablink of tablinks){
+		tablink.classList.remove("active_link");
+	}
+	for(tablink of tabcontents){
+		tablink.classList.remove("active-tab");
+	}
+	event.currentTarget.classList.add("active_link");
+	document.getElementById(tabname).classList.add("active-tab");
+ }
+
+ var sidemenu = document.getElementById("sidemenu");
+ function openmenu(){
+	sidemenu.style.right = "0";
+ }
+ function closemenu(){
+	sidemenu.style.right = "-200px";
+ }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzurpSHNFDQJgsogikw9agSylAoa0b4gx_iIUpUF-IZxcI2Nn3iVCKhJXHWE-1P8fBnmg/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {msg.innerHTML = "Message sent successfully"
+			setTimeout(function(){
+				msg.innerHTML = ""
+			},5000)
+		form.reset()})
+      .catch(error => console.error('Error!', error.message))
+  })
+
+	cons
+</script>
+</body>
+</html>
